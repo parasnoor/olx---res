@@ -1,0 +1,402 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+
+
+.head1 {
+    padding: 5px;
+    width: 34%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    font-size: medium;
+    font-weight: bold;
+}
+a {
+text-decoration: none;
+}
+
+
+
+.topbar {
+    padding: 10px;
+    display: flex;
+}
+
+/* header2 start */
+ 
+.input-group input {
+    padding: 10px 10px 10px 40px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 400px;
+    height: 50px;
+    
+}
+
+
+.button{
+    padding-left: 40px;
+    padding-top: 5px;
+
+}
+
+.sale1{
+    font-weight: bold;
+    background-color: white;
+    border-width: 7px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-top-color: rgb(0, 229, 255);
+    border-left-color:yellow ;
+    border-right-color: rgb(115, 253, 16);
+    border-bottom-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+
+}
+
+.input-group i {
+    position: absolute;
+    right: 10px;
+    margin-top: 15px;
+    color:white;
+    font-size:25px;
+
+}
+
+.paras{
+    height: 50px;
+    width: 250px;
+    font-size: large;
+    border-radius: 5px;
+}
+
+.junaid{
+    width: 450px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: hsl(150, 7%, 5%);
+
+
+}
+.head2{
+    
+    
+    font-size: medium;
+    font-weight: bold;
+display: flex;
+padding: 20px;
+    gap: 15px;
+    
+    border-radius: 10px;
+
+    
+
+}
+
+.b1{
+    margin:0px;
+    display: flex;
+font-size: smaller;
+width: 900px;
+font-weight: bold;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+}
+.box{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+.box0{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.box1{
+    
+    height: 40px;
+width: 40px;
+box-shadow: rgb(232, 229, 229) 2px 15px 5px inset;
+border-radius: 20px;
+text-align: center;
+align-items: center;
+display: flex;
+padding-left: 7px;
+
+
+}
+
+.fa-solid{
+    color: black;
+}
+
+.box3{
+    
+    height: 40px;
+width: 40px;
+box-shadow:  rgb(232, 229, 229) 2px 15px 5px inset;
+border-radius: 20px;
+text-align: center;
+align-items: center;
+display: flex;
+padding-left: 10px;
+
+}
+
+.fa-sharp{
+    color: black;
+}
+
+.nav-link{
+    color: black;
+
+}
+.img{
+    width: 98px;
+}
+
+.img1{
+    
+    
+margin-top: 20px;
+  padding-left: 20px;
+
+}
+
+.pari{
+    display: flex;
+  font-weight:bold ;
+  text-align: center;
+  font-size: 14px;
+  color: black;
+  text-transform: capitalize;
+  align-items: center;
+  
+  width: 100%;
+  justify-content: space-between;
+
+
+}
+
+.paro{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+
+  .card-text{
+    display:  flex; 
+    text-align: center;
+    align-items: center;
+     width: 180px;
+     height: 20px;
+     justify-content: space-between;
+     font-weight: bold;
+margin-right: 80px;
+  }
+
+  
+  .fa-regular {
+    font-size: x-large;
+  }
+.mob {
+    
+        width: 100px;
+        height: 200px;
+        display: flex; 
+        flex-direction: column;
+        
+}
+    .veh{
+        width: 100px;
+        height: 200px;
+        display: flex;
+         align-items: center;
+         flex-direction: column;
+    padding-top: 10px;
+}
+
+    .sale{
+        width: 100px;
+        height: 200px;
+    display: flex; align-items: center ;flex-direction: column;
+        
+        padding-top: 10px;
+        text-align: center;
+        
+    }
+    .rent{
+        width: 100px;
+        height: 200px;
+    display: flex; align-items: center;flex-direction: column;
+        padding-top: 10px;
+        
+       
+}
+    .home{
+        width: 100px;
+        height: 200px;
+        display: flex;
+         align-items: center;flex-direction: column;
+    padding-top: 10px;
+    }
+    .biek{
+        display: flex; 
+        align-items: center; 
+        flex-direction: column;
+        width: 100px;
+        height: 200px;
+ 
+    padding-top: 10px;
+        
+}
+    .buss{
+        display: flex;
+         align-items: center; 
+         padding-top: 10px;
+         
+        flex-direction: column;
+    width: 100px;
+    height: 200px;
+       
+}
+.ser{
+    display: flex; align-items: center;
+    flex-direction: column;
+   width: 100px;
+   height: 200px;
+   padding-top: 10px;
+}
+.job{
+    display: flex; align-items: center; 
+    flex-direction: column;
+   width: 100px;
+   height: 200px;
+   padding-top: 10px;
+}
+.anim{
+    display: flex; align-items: center;
+    padding-top: 10px;
+    flex-direction: column;
+   width: 100px;
+   height: 200px;
+   
+}
+.furniture{
+    display: flex; align-items: center; 
+    padding-top: 10px;
+    flex-direction: column;
+   width: 100px;
+   height: 200px;
+   
+}
+.fashion{
+    display: flex; align-items: center; 
+    padding-top: 10px;
+    flex-direction: column;
+   width: 100px;
+   height: 200px;
+   
+}
+.book{
+    display: flex; align-items: center;
+    padding-top: 10px;
+    flex-direction: column;
+   width: 100px;
+   height: 200px;
+   
+}
+.kid{
+    display: flex; align-items: center; 
+    padding-top: 10px;
+    
+    flex-direction: column;
+   width: 100px;
+   height: 200px;
+   
+}
+.card{
+    display: flex;
+    gap: 20px;
+}
+
+.mobile{
+     display: flex;
+gap: 20px;
+}
+.car{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+width: 98%;
+
+}
+
+.bike{
+    display: flex;
+    gap: 20px;
+
+}
+.house{
+    display: flex;
+    gap: 20px;
+}
+.Video-Audios{
+    display: flex;
+    gap: 20px;
+}
+
+.Tablets{
+    display: flex;
+    gap: 20px;
+}
+
+.Lands{
+    display: flex;
+    gap: 20px;
+}
+
+.jobs{
+    display: flex;
+    gap: 20px;
+}
+.heart{
+    font-size: medium; 
+      height: 150px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 15px;
+}
+
+.f1{
+    display: flex;
+    height: 200px;
+     justify-content: space-between;
+width: 100%;
+padding-left: 10px;
+ font-size: 12px; 
+ font-weight: bold;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ background-color: rgb(204, 210, 243);
+   padding-top: 20px;
+
+}
+.gray{
+    line-height: 5px;
+     color: rgb(94, 92, 92); 
+    font-size: small;
+}
+
